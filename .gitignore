@@ -6,3 +6,5 @@ policy_pulse/migrations/__pycache__/
 politianalytica/__pycache__/
 # Ignore all files and subdirectories inside and including assets/template/images/party_logo/
 assets/template/images/party_logo/*
+assets/template/images/party_leader/*
+assets/template/images/party_pm/*
