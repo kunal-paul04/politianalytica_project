@@ -25,6 +25,5 @@ def manifesto_view(request, party_name):
         return render(request, 'error.html', {'error_message': f"Sheet '{party_name}' not found in the Excel file."})
     # Convert DataFrame to list of dictionaries for easy access in the template
     data = df.to_dict(orient='records')
-    print(data)
     # Pass party name and data to the template
     return render(request, 'manifesto.html', {'party_name': party_name, 'data': data})
