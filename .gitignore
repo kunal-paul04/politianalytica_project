@@ -1,0 +1,8 @@
+# Ignore data.xlsx file in the media directory
+media/data.xlsx
+# Ignore __pycache__ directories in policy_pulse, policy_pulse/migrations, and politianalytica
+policy_pulse/__pycache__/
+policy_pulse/migrations/__pycache__/
+politianalytica/__pycache__/
+# Ignore all files and subdirectories inside and including assets/template/images/party_logo/
+assets/template/images/party_logo/*
